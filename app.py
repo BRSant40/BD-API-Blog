@@ -4,6 +4,7 @@ import json
 import jwt
 from datetime import datetime, timedelta
 from functools import wraps
+
 # Rota padrão - GET https://localhost:5000
 
 
