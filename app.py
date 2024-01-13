@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from functools import wraps
 # Rota padrão - GET https://localhost:5000
 
+
 def token_obrigatorio(f):
     @wraps(f)
     def decorated(*args, **kwargs):
